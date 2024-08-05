@@ -45,7 +45,7 @@ drone_fleet_shivam/
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/drone_fleet_shivam.git
+git clone https://github.com/shivaay1307/drone_fleet_shivam.git
 cd drone_fleet_shivam
 
 sudo docker-compose up --build
