@@ -33,7 +33,7 @@ function onEyeClick() {
 }
 
 // Fetch configuration data from the specified URL
-fetch("http://127.0.0.1:5500/config.json")
+fetch("/config.json")
   .then((response) => {
     // Check if the response is successful
     if (!response.ok) {
