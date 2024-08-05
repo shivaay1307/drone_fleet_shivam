@@ -1,6 +1,63 @@
+.noto-sans {
+  font-family: "Noto Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 .mt-6{
     margin-top: 6rem;
 }
+
 .mb-6{
     margin-bottom: 6rem;
+}
+
+.z-10{
+    z-index: 10;
+}
+.nav-pills .nav-link.active{
+    background-color: rgb(25,135,84);
+    color: #fff !important;
+}
+
+.nav-link.active svg,
+.nav-link.active svg path{
+    fill: #fff;
+}
+
+.drone-image{
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.card-text{
+    min-height: 100px;
+}
+
+.drone-info {
+    width: 100%;
+}
+
+.drone-info span,
+.card-text span{
+    color: rgb(25,135,84);
+    font-weight: 500;
+    padding-left: 8px;
+}
+
+.drone-info li{
+   list-style-type: none;
+}
+
+@media screen and (min-width: 1500px) {
+    .drone-info {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        width: 90%;
+    }
 }
